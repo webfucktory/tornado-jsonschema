@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-version = __import__('package_name').__version__
+version = __import__('tornado_jsonschema').__version__
 
 with open('requirements.txt') as f:
     requirements = [
@@ -12,14 +12,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="package-name",
+    name="tornado-jsonschema",
     version=version,
     author="webfucktory",
     author_email="root@webfucktory.com",
-    description="Package description",
+    description="JSON Schema support for Tornado",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/webfucktory/package-name",
+    url="https://github.com/webfucktory/tornado-jsonschema",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
