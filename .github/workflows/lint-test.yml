@@ -30,4 +30,7 @@ jobs:
         pip install -r requirements.dev.txt
     - name: Lint with flake8
       run: |
-        flake8 tornado_jsonschema/ tests/ setup.py --count --show-source --statistics
+        ./lint
+    - name: Test with pytest
+      run: |
+        ./test
