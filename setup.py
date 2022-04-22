@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 def get_version():
@@ -33,7 +33,7 @@ setup(
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     url="https://github.com/webfucktory/tornado-jsonschema",
-    packages=find_packages(),
+    packages=['tornado_jsonschema'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
