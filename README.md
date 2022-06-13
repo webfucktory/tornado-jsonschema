@@ -22,6 +22,20 @@ pip install tornado-jsonschema
 
 ### TO-DO
 
+## Development
+
+### Run Tests
+
+```shell script
+./test
+```
+
+### Style Check
+
+```shell script
+./lint
+```
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` file for more information.
